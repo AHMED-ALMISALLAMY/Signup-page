@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body {
+    background-color: darkcyan;
+}
+
+/* Sign up  */
+.main {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(168, 237, 213);
+    height: 470px;
+    width: 340px;
+    margin: auto;
+    text-align: center;
+    color: rgb(15, 209, 223);
+    padding-top: 20px;
+    font-size: medium;
+    box-shadow: 8px 8px 25px gray;
+}
+
+
+input {
+    margin-top: 17px;
+    margin-bottom: 17px;
+    border-radius: 15px;
+    padding: 5px;
+    border: 0;
+    width:70%;
+    font-size: 16px;
+}
+
+
+::placeholder {
+    text-align: center;
+}
+
+
+.sign-button {
+    width: 90px;
+    height: 30px;
+    border: 0;
+    background: white;
+    color: #0d6efd;
+    border-color: #0d6efd;
+    margin-top: 35px;
+    cursor: pointer;
+}
+
+
+.sign-button:hover {
+    background-color: #0d6efd;
+    color: white;
+}
+
+
+/* Footer paragraph */
+
+.main-paragraph {
+    position: absolute;
+    bottom: 70px;
+    text-align: center;
+    margin:0 38px;
+    color: blue;
+}
+
+
+.login {
+    color: rgba(16, 194, 206, 0.879);
+}
